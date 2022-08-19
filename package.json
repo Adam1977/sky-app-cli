@@ -1,0 +1,26 @@
+{
+  "name": "sky-app-cli",
+  "version": "0.0.2",
+  "description": "Sky app cli tool for generating framework template",
+  "scripts": {},
+  "author": "https://github.com/Adam1977",
+  "keywords": [
+    "sky-app-cli",
+    "sky-cli",
+    "sky",
+    "cli"
+  ],
+  "license": "ISC",
+  "bin": {
+    "sky-cli": "./src/index.js"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "decompress": "^4.2.1",
+    "fs-extra": "^10.1.0",
+    "inquirer": "8.2.4",
+    "request": "^2.88.2",
+    "tmp": "^0.2.1",
+    "yargs": "^17.5.1"
+  }
+}
