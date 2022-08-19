@@ -1,6 +1,6 @@
 {
   "name": "sky-app-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Sky app cli tool for generating framework template",
   "scripts": {},
   "author": "https://github.com/Adam1977",
@@ -14,6 +14,11 @@
   "bin": {
     "sky-cli": "./src/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adam1977/sky-app-cli.git"
+  },
+  "homepage": "https://github.com/Adam1977/sky-app-cli",
   "dependencies": {
     "chalk": "4.1.2",
     "decompress": "^4.2.1",
